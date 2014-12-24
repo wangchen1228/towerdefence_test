@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{E9C14AE5-1D01-3179-C1CD-FA0858BD35C2}</ProjectGuid>
+	<ProjectGuid>{C69D8908-23A4-A0A5-93A0-C6D296CE4CE8}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -39,19 +39,13 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>E:/Unity 3D/4.3.0/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity4.5.3/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>E:/Unity 3D/4.3.0/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity4.5.3/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Cursor_CTRL.cs" />
-     <Compile Include="Assets\JiaoBen\CannonShoot.cs" />
-     <Compile Include="Assets\JiaoBen\CreatEnemy.cs" />
-     <Compile Include="Assets\JiaoBen\DeskTubiao.cs" />
-     <Compile Include="Assets\JiaoBen\EnemyMove.cs" />
-     <Compile Include="Assets\JiaoBen\isEnterPoint.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\EquipItems.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\EquipRandomItem.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\UICursor.cs" />
@@ -170,9 +164,19 @@
      <Compile Include="Assets\NGUI\Scripts\UI\UITiledSprite.cs" />
      <Compile Include="Assets\NGUI\Scripts\UI\UITooltip.cs" />
      <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
-     <Compile Include="Assets\PlaneDraw_CTRL.cs" />
-     <Compile Include="Assets\camera_ui.cs" />
-     <Compile Include="Assets\script\move_hero.cs" />
+     <Compile Include="Assets\Scripts\Bullet.cs" />
+     <Compile Include="Assets\Scripts\Castle.cs" />
+     <Compile Include="Assets\Scripts\Menu.cs" />
+     <Compile Include="Assets\Scripts\Monster.cs" />
+     <Compile Include="Assets\Scripts\MonsterFactory.cs" />
+     <Compile Include="Assets\Scripts\TDTK\CannonShoot.cs" />
+     <Compile Include="Assets\Scripts\TDTK\Cursor_CTRL.cs" />
+     <Compile Include="Assets\Scripts\TDTK\DeskTubiao.cs" />
+     <Compile Include="Assets\Scripts\TDTK\EnemyMove.cs" />
+     <Compile Include="Assets\Scripts\TDTK\PlaneDraw_CTRL.cs" />
+     <Compile Include="Assets\Scripts\TDTK\isEnterPoint.cs" />
+     <Compile Include="Assets\Scripts\TowerShootAction.cs" />
+     <Compile Include="Assets\Scripts\camera_ui.cs" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
      <None Include="Assets\NGUI\Examples\Models\Orc\Orc Skin.shader" />
      <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
@@ -207,12 +211,12 @@
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
      <None Include="Assets\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/lihui/Desktop/NewProject/NewProject/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/Craig/gitrepo/towerdefence_test/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
-      <Project>{AB10F42A-142C-90B3-1AA5-F99EAFFD87CA}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+      <Project>{09CECE68-0078-944E-E7E2-361A23777061}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

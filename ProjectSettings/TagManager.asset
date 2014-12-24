@@ -9,6 +9,7 @@ TagManager:
   - tower
   - ui
   - cameraui
+  - movetest
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
@@ -22,7 +23,7 @@ TagManager:
   User Layer 9: Projectiles
   User Layer 10: Grid
   User Layer 11: Tower
-  User Layer 12: 
+  User Layer 12: movetest
   User Layer 13: WorldLimit
   User Layer 14: 
   User Layer 15: 
